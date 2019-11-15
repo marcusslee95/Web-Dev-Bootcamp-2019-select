@@ -1,0 +1,16 @@
+{
+  "name": "part2-my-express-server",
+  "version": "1.0.0",
+  "description": "walkthrough of creating 1st server via express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Marcus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4"
+  }
+}
