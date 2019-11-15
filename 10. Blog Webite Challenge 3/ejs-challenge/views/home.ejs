@@ -1,0 +1,14 @@
+<%- include('partials/heeder'); -%>
+<h1>Home</h1>
+<p>
+  <%=randoTexto %>
+</p>
+<%  additionalContent.forEach(function(post){ %>
+<h1><%=  post.title %> </h1>
+<p><%= post.content.substring(0, 100) + "..."%> <a href="/posts/<%=post.title%>">Read More</a></p>
+<% })%>
+
+<%# for (var i = 0; i < additionalContent.length; i++) {  %>
+<%#console.log(additionalContent[i].title);  %>
+<%#  }  %>
+<%- include('partials/footer'); -%>
